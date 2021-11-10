@@ -1,3 +1,4 @@
+
 # author: Selina Ernst
 # date: 10.11.2021
 
@@ -70,5 +71,3 @@ def main():
 
     fasta_file(path_fasta, path_csv)
     plot_hist(path_csv, path_png, "Total counts of amino acids")
-
-main()

@@ -1,0 +1,1525 @@
+{
+    "distance": 0,
+    "child_1": {
+        "distance": 1.34959,
+        "child_1": {
+            "distance": 0.02646,
+            "child_1": {
+                "distance": 0.03471,
+                "child_1": {
+                    "distance": 0.05551,
+                    "child_1": {
+                        "distance": 0.04428,
+                        "child_1": {
+                            "distance": 0.06301,
+                            "child_1": {
+                                "distance": 0.16913,
+                                "child_1": {
+                                    "distance": 0.03328,
+                                    "child_1": {
+                                        "distance": 0.02475,
+                                        "child_1": {
+                                            "distance": 0.04492,
+                                            "child_1": {
+                                                "distance": 0.12234,
+                                                "child_1": {
+                                                    "distance": 0.03492,
+                                                    "child_1": {
+                                                        "distance": 0.03759,
+                                                        "child_1": {
+                                                            "distance": 0.02808,
+                                                            "child_1": {
+                                                                "distance": 0.02183,
+                                                                "child_1": {
+                                                                    "distance": 0.03131,
+                                                                    "child_1": {
+                                                                        "distance": 0.00813,
+                                                                        "child_1": {
+                                                                            "distance": 0.00044,
+                                                                            "child_1": {
+                                                                                "distance": 0.0,
+                                                                                "leaf": true,
+                                                                                "name": "Escherichia_coli_EDL933"
+                                                                            },
+                                                                            "child_2": {
+                                                                                "distance": 0.0,
+                                                                                "leaf": true,
+                                                                                "name": "Escherichia_coli_O157_H7"
+                                                                            }
+                                                                        },
+                                                                        "child_2": {
+                                                                            "distance": 0.0,
+                                                                            "child_1": {
+                                                                                "distance": 0.00022,
+                                                                                "child_1": {
+                                                                                    "distance": 0.0,
+                                                                                    "leaf": true,
+                                                                                    "name": "Escherichia_coli_O6"
+                                                                                },
+                                                                                "child_2": {
+                                                                                    "distance": 0.00022,
+                                                                                    "leaf": true,
+                                                                                    "name": "Escherichia_coli_K12"
+                                                                                }
+                                                                            },
+                                                                            "child_2": {
+                                                                                "distance": 0.00266,
+                                                                                "child_1": {
+                                                                                    "distance": 0.0,
+                                                                                    "leaf": true,
+                                                                                    "name": "Shigella_flexneri_2a_2457T"
+                                                                                },
+                                                                                "child_2": {
+                                                                                    "distance": 0.0,
+                                                                                    "leaf": true,
+                                                                                    "name": "Shigella_flexneri_2a_301"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "child_2": {
+                                                                        "distance": 0.00702,
+                                                                        "child_1": {
+                                                                            "distance": 0.00146,
+                                                                            "child_1": {
+                                                                                "distance": 0.0,
+                                                                                "leaf": true,
+                                                                                "name": "Salmonella_enterica"
+                                                                            },
+                                                                            "child_2": {
+                                                                                "distance": 0.0,
+                                                                                "leaf": true,
+                                                                                "name": "Salmonella_typhi"
+                                                                            }
+                                                                        },
+                                                                        "child_2": {
+                                                                            "distance": 0.00075,
+                                                                            "leaf": true,
+                                                                            "name": "Salmonella_typhimurium"
+                                                                        }
+                                                                    }
+                                                                },
+                                                                "child_2": {
+                                                                    "distance": 0.01182,
+                                                                    "child_1": {
+                                                                        "distance": 0.03398,
+                                                                        "child_1": {
+                                                                            "distance": 0.0,
+                                                                            "leaf": true,
+                                                                            "name": "Yersinia_pestis_Medievalis"
+                                                                        },
+                                                                        "child_2": {
+                                                                            "distance": 0.0,
+                                                                            "child_1": {
+                                                                                "distance": 0.0,
+                                                                                "leaf": true,
+                                                                                "name": "Yersinia_pestis_KIM"
+                                                                            },
+                                                                            "child_2": {
+                                                                                "distance": 0.0,
+                                                                                "leaf": true,
+                                                                                "name": "Yersinia_pestis_CO92"
+                                                                            }
+                                                                        }
+                                                                    },
+                                                                    "child_2": {
+                                                                        "distance": 0.05076,
+                                                                        "leaf": true,
+                                                                        "name": "Photorhabdus_luminescens"
+                                                                    }
+                                                                }
+                                                            },
+                                                            "child_2": {
+                                                                "distance": 0.1503,
+                                                                "child_1": {
+                                                                    "distance": 0.08332,
+                                                                    "child_1": {
+                                                                        "distance": 0.32481,
+                                                                        "leaf": true,
+                                                                        "name": "Blochmannia_floridanus"
+                                                                    },
+                                                                    "child_2": {
+                                                                        "distance": 0.35452,
+                                                                        "leaf": true,
+                                                                        "name": "Wigglesworthia_brevipalpis"
+                                                                    }
+                                                                },
+                                                                "child_2": {
+                                                                    "distance": 0.06497,
+                                                                    "child_1": {
+                                                                        "distance": 0.27492,
+                                                                        "leaf": true,
+                                                                        "name": "Buchnera_aphidicola_Bp"
+                                                                    },
+                                                                    "child_2": {
+                                                                        "distance": 0.1014,
+                                                                        "child_1": {
+                                                                            "distance": 0.09535,
+                                                                            "leaf": true,
+                                                                            "name": "Buchnera_aphidicola_APS"
+                                                                        },
+                                                                        "child_2": {
+                                                                            "distance": 0.10235,
+                                                                            "leaf": true,
+                                                                            "name": "Buchnera_aphidicola_Sg"
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        },
+                                                        "child_2": {
+                                                            "distance": 0.07365,
+                                                            "child_1": {
+                                                                "distance": 0.01571,
+                                                                "child_1": {
+                                                                    "distance": 0.03441,
+                                                                    "leaf": true,
+                                                                    "name": "Pasteurella_multocida"
+                                                                },
+                                                                "child_2": {
+                                                                    "distance": 0.03754,
+                                                                    "leaf": true,
+                                                                    "name": "Haemophilus_influenzae"
+                                                                }
+                                                            },
+                                                            "child_2": {
+                                                                "distance": 0.05333,
+                                                                "leaf": true,
+                                                                "name": "Haemophilus_ducreyi"
+                                                            }
+                                                        }
+                                                    },
+                                                    "child_2": {
+                                                        "distance": 0.05597,
+                                                        "child_1": {
+                                                            "distance": 0.02661,
+                                                            "child_1": {
+                                                                "distance": 0.01536,
+                                                                "child_1": {
+                                                                    "distance": 0.01212,
+                                                                    "child_1": {
+                                                                        "distance": 0.00021,
+                                                                        "leaf": true,
+                                                                        "name": "Vibrio_vulnificus_YJ016"
+                                                                    },
+                                                                    "child_2": {
+                                                                        "distance": 0.00291,
+                                                                        "leaf": true,
+                                                                        "name": "Vibrio_vulnificus_CMCP6"
+                                                                    }
+                                                                },
+                                                                "child_2": {
+                                                                    "distance": 0.01985,
+                                                                    "leaf": true,
+                                                                    "name": "Vibrio_parahaemolyticus"
+                                                                }
+                                                            },
+                                                            "child_2": {
+                                                                "distance": 0.02995,
+                                                                "leaf": true,
+                                                                "name": "Vibrio_cholerae"
+                                                            }
+                                                        },
+                                                        "child_2": {
+                                                            "distance": 0.06131,
+                                                            "leaf": true,
+                                                            "name": "Photobacterium_profundum"
+                                                        }
+                                                    }
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.10577,
+                                                    "leaf": true,
+                                                    "name": "Shewanella_oneidensis"
+                                                }
+                                            },
+                                            "child_2": {
+                                                "distance": 0.14456,
+                                                "child_1": {
+                                                    "distance": 0.02904,
+                                                    "child_1": {
+                                                        "distance": 0.02741,
+                                                        "leaf": true,
+                                                        "name": "Pseudomonas_putida"
+                                                    },
+                                                    "child_2": {
+                                                        "distance": 0.03162,
+                                                        "leaf": true,
+                                                        "name": "Pseudomonas_syringae"
+                                                    }
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.03202,
+                                                    "leaf": true,
+                                                    "name": "Pseudomonas_aeruginosa"
+                                                }
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.24151,
+                                            "child_1": {
+                                                "distance": 0.10192,
+                                                "child_1": {
+                                                    "distance": 0.01324,
+                                                    "leaf": true,
+                                                    "name": "Xylella_fastidiosa_700964"
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.00802,
+                                                    "leaf": true,
+                                                    "name": "Xylella_fastidiosa_9a5c"
+                                                }
+                                            },
+                                            "child_2": {
+                                                "distance": 0.05037,
+                                                "child_1": {
+                                                    "distance": 0.01069,
+                                                    "leaf": true,
+                                                    "name": "Xanthomonas_axonopodis"
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.00934,
+                                                    "leaf": true,
+                                                    "name": "Xanthomonas_campestris"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.33185,
+                                        "leaf": true,
+                                        "name": "Coxiella_burnetii"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.08761,
+                                    "child_1": {
+                                        "distance": 0.0384,
+                                        "child_1": {
+                                            "distance": 0.07131,
+                                            "child_1": {
+                                                "distance": 0.12615,
+                                                "child_1": {
+                                                    "distance": 0.004,
+                                                    "leaf": true,
+                                                    "name": "Neisseria_meningitidis_A"
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.00134,
+                                                    "leaf": true,
+                                                    "name": "Neisseria_meningitidis_B"
+                                                }
+                                            },
+                                            "child_2": {
+                                                "distance": 0.09623,
+                                                "leaf": true,
+                                                "name": "Chromobacterium_violaceum"
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.08478,
+                                            "child_1": {
+                                                "distance": 0.14218,
+                                                "child_1": {
+                                                    "distance": 0.00127,
+                                                    "leaf": true,
+                                                    "name": "Bordetella_pertussis"
+                                                },
+                                                "child_2": {
+                                                    "distance": 6e-05,
+                                                    "child_1": {
+                                                        "distance": 0.00199,
+                                                        "leaf": true,
+                                                        "name": "Bordetella_parapertussis"
+                                                    },
+                                                    "child_2": {
+                                                        "distance": 0.00022,
+                                                        "leaf": true,
+                                                        "name": "Bordetella_bronchiseptica"
+                                                    }
+                                                }
+                                            },
+                                            "child_2": {
+                                                "distance": 0.11464,
+                                                "leaf": true,
+                                                "name": "Ralstonia_solanacearum"
+                                            }
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.22059,
+                                        "leaf": true,
+                                        "name": "Nitrosomonas_europaea"
+                                    }
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.12365,
+                                "child_1": {
+                                    "distance": 0.11257,
+                                    "child_1": {
+                                        "distance": 0.05767,
+                                        "child_1": {
+                                            "distance": 0.08637,
+                                            "child_1": {
+                                                "distance": 0.05575,
+                                                "child_1": {
+                                                    "distance": 0.05735,
+                                                    "child_1": {
+                                                        "distance": 0.0,
+                                                        "leaf": true,
+                                                        "name": "Agrobacterium_tumefaciens_Cereon"
+                                                    },
+                                                    "child_2": {
+                                                        "distance": 0.0,
+                                                        "leaf": true,
+                                                        "name": "Agrobacterium_tumefaciens_WashU"
+                                                    }
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.05114,
+                                                    "leaf": true,
+                                                    "name": "Rhizobium_meliloti"
+                                                }
+                                            },
+                                            "child_2": {
+                                                "distance": 0.02384,
+                                                "child_1": {
+                                                    "distance": 0.0866,
+                                                    "child_1": {
+                                                        "distance": 0.00102,
+                                                        "leaf": true,
+                                                        "name": "Brucella_suis"
+                                                    },
+                                                    "child_2": {
+                                                        "distance": 0.00184,
+                                                        "leaf": true,
+                                                        "name": "Brucella_melitensis"
+                                                    }
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.09308,
+                                                    "leaf": true,
+                                                    "name": "Rhizobium_loti"
+                                                }
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.14122,
+                                            "child_1": {
+                                                "distance": 0.04182,
+                                                "leaf": true,
+                                                "name": "Rhodopseudomonas_palustris"
+                                            },
+                                            "child_2": {
+                                                "distance": 0.06346,
+                                                "leaf": true,
+                                                "name": "Bradyrhizobium_japonicum"
+                                            }
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.23943,
+                                        "leaf": true,
+                                        "name": "Caulobacter_crescentus"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.12058,
+                                    "child_1": {
+                                        "distance": 0.51596,
+                                        "leaf": true,
+                                        "name": "Wolbachia_sp._wMel"
+                                    },
+                                    "child_2": {
+                                        "distance": 0.38019,
+                                        "child_1": {
+                                            "distance": 0.04245,
+                                            "leaf": true,
+                                            "name": "Rickettsia_prowazekii"
+                                        },
+                                        "child_2": {
+                                            "distance": 0.02487,
+                                            "leaf": true,
+                                            "name": "Rickettsia_conorii"
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.4139,
+                            "child_1": {
+                                "distance": 0.09105,
+                                "child_1": {
+                                    "distance": 0.0533,
+                                    "child_1": {
+                                        "distance": 0.19055,
+                                        "child_1": {
+                                            "distance": 0.00897,
+                                            "leaf": true,
+                                            "name": "Helicobacter_pylori_J99"
+                                        },
+                                        "child_2": {
+                                            "distance": 0.00637,
+                                            "leaf": true,
+                                            "name": "Helicobacter_pylori_26695"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.12643,
+                                        "leaf": true,
+                                        "name": "Helicobacter_hepaticus"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.11644,
+                                    "leaf": true,
+                                    "name": "Wolinella_succinogenes"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.20399,
+                                "leaf": true,
+                                "name": "Campylobacter_jejuni"
+                            }
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.04214,
+                        "child_1": {
+                            "distance": 0.041,
+                            "child_1": {
+                                "distance": 0.3832,
+                                "leaf": true,
+                                "name": "Desulfovibrio_vulgaris"
+                            },
+                            "child_2": {
+                                "distance": 0.0487,
+                                "child_1": {
+                                    "distance": 0.22491,
+                                    "leaf": true,
+                                    "name": "Geobacter_sulfurreducens"
+                                },
+                                "child_2": {
+                                    "distance": 0.45934,
+                                    "leaf": true,
+                                    "name": "Bdellovibrio_bacteriovorus"
+                                }
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.20514,
+                            "child_1": {
+                                "distance": 0.24572,
+                                "leaf": true,
+                                "name": "Acidobacterium_capsulatum"
+                            },
+                            "child_2": {
+                                "distance": 0.29086,
+                                "leaf": true,
+                                "name": "Solibacter_usitatus"
+                            }
+                        }
+                    }
+                },
+                "child_2": {
+                    "distance": 0.0272,
+                    "child_1": {
+                        "distance": 0.03606,
+                        "child_1": {
+                            "distance": 0.45615,
+                            "leaf": true,
+                            "name": "Fusobacterium_nucleatum"
+                        },
+                        "child_2": {
+                            "distance": 0.07696,
+                            "child_1": {
+                                "distance": 0.40986,
+                                "leaf": true,
+                                "name": "Aquifex_aeolicus"
+                            },
+                            "child_2": {
+                                "distance": 0.34182,
+                                "leaf": true,
+                                "name": "Thermotoga_maritima"
+                            }
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.04332,
+                        "child_1": {
+                            "distance": 0.0437,
+                            "child_1": {
+                                "distance": 0.24776,
+                                "child_1": {
+                                    "distance": 0.26583,
+                                    "leaf": true,
+                                    "name": "Thermus_thermophilus"
+                                },
+                                "child_2": {
+                                    "distance": 0.29763,
+                                    "leaf": true,
+                                    "name": "Deinococcus_radiodurans"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.53988,
+                                "leaf": true,
+                                "name": "Dehalococcoides_ethenogenes"
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.24501,
+                            "child_1": {
+                                "distance": 0.07646,
+                                "child_1": {
+                                    "distance": 0.0504,
+                                    "child_1": {
+                                        "distance": 0.04331,
+                                        "child_1": {
+                                            "distance": 0.12014,
+                                            "leaf": true,
+                                            "name": "Nostoc_sp._PCC_7120"
+                                        },
+                                        "child_2": {
+                                            "distance": 0.15652,
+                                            "leaf": true,
+                                            "name": "Synechocystis_sp._PCC6803"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.13147,
+                                        "leaf": true,
+                                        "name": "Synechococcus_elongatus"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.20442,
+                                    "child_1": {
+                                        "distance": 0.04238,
+                                        "child_1": {
+                                            "distance": 0.04879,
+                                            "child_1": {
+                                                "distance": 0.0678,
+                                                "leaf": true,
+                                                "name": "Synechococcus_sp._WH8102"
+                                            },
+                                            "child_2": {
+                                                "distance": 0.05434,
+                                                "leaf": true,
+                                                "name": "Prochlorococcus_marinus_MIT9313"
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.10211,
+                                            "leaf": true,
+                                            "name": "Prochlorococcus_marinus_SS120"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.1617,
+                                        "leaf": true,
+                                        "name": "Prochlorococcus_marinus_CCMP1378"
+                                    }
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.23764,
+                                "leaf": true,
+                                "name": "Gloeobacter_violaceus"
+                            }
+                        }
+                    }
+                }
+            },
+            "child_2": {
+                "distance": 0.04284,
+                "child_1": {
+                    "distance": 0.0348,
+                    "child_1": {
+                        "distance": 0.04615,
+                        "child_1": {
+                            "distance": 0.24062,
+                            "child_1": {
+                                "distance": 0.36751,
+                                "leaf": true,
+                                "name": "Gemmata_obscuriglobus"
+                            },
+                            "child_2": {
+                                "distance": 0.38017,
+                                "leaf": true,
+                                "name": "Rhodopirellula_baltica"
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.07248,
+                            "child_1": {
+                                "distance": 0.47573,
+                                "child_1": {
+                                    "distance": 0.0,
+                                    "leaf": true,
+                                    "name": "Leptospira_interrogans_L1-130"
+                                },
+                                "child_2": {
+                                    "distance": 0.00027,
+                                    "leaf": true,
+                                    "name": "Leptospira_interrogans_56601"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.20278,
+                                "child_1": {
+                                    "distance": 0.19057,
+                                    "child_1": {
+                                        "distance": 0.25544,
+                                        "leaf": true,
+                                        "name": "Treponema_pallidum"
+                                    },
+                                    "child_2": {
+                                        "distance": 0.16072,
+                                        "leaf": true,
+                                        "name": "Treponema_denticola"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.42323,
+                                    "leaf": true,
+                                    "name": "Borrelia_burgdorferi"
+                                }
+                            }
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.268,
+                        "child_1": {
+                            "distance": 0.14429,
+                            "child_1": {
+                                "distance": 0.44723,
+                                "child_1": {
+                                    "distance": 9e-05,
+                                    "leaf": true,
+                                    "name": "Tropheryma_whipplei_TW08/27"
+                                },
+                                "child_2": {
+                                    "distance": 0.00081,
+                                    "leaf": true,
+                                    "name": "Tropheryma_whipplei_Twist"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.29283,
+                                "leaf": true,
+                                "name": "Bifidobacterium_longum"
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.0611,
+                            "child_1": {
+                                "distance": 0.09883,
+                                "child_1": {
+                                    "distance": 0.13907,
+                                    "child_1": {
+                                        "distance": 0.03682,
+                                        "child_1": {
+                                            "distance": 0.03415,
+                                            "child_1": {
+                                                "distance": 0.00022,
+                                                "leaf": true,
+                                                "name": "Corynebacterium_glutamicum_13032"
+                                            },
+                                            "child_2": {
+                                                "distance": 0.0,
+                                                "leaf": true,
+                                                "name": "Corynebacterium_glutamicum"
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.02559,
+                                            "leaf": true,
+                                            "name": "Corynebacterium_efficiens"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.06479,
+                                        "leaf": true,
+                                        "name": "Corynebacterium_diphtheriae"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.11523,
+                                    "child_1": {
+                                        "distance": 0.01514,
+                                        "child_1": {
+                                            "distance": 0.03027,
+                                            "child_1": {
+                                                "distance": 0.00067,
+                                                "leaf": true,
+                                                "name": "Mycobacterium_bovis"
+                                            },
+                                            "child_2": {
+                                                "distance": 0.00022,
+                                                "child_1": {
+                                                    "distance": 0.0,
+                                                    "leaf": true,
+                                                    "name": "Mycobacterium_tuberculosis_CDC1551"
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.0,
+                                                    "leaf": true,
+                                                    "name": "Mycobacterium_tuberculosis_H37Rv"
+                                                }
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.05135,
+                                            "leaf": true,
+                                            "name": "Mycobacterium_leprae"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.02091,
+                                        "leaf": true,
+                                        "name": "Mycobacterium_paratuberculosis"
+                                    }
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.16707,
+                                "child_1": {
+                                    "distance": 0.0268,
+                                    "leaf": true,
+                                    "name": "Streptomyces_avermitilis"
+                                },
+                                "child_2": {
+                                    "distance": 0.02678,
+                                    "leaf": true,
+                                    "name": "Streptomyces_coelicolor"
+                                }
+                            }
+                        }
+                    }
+                },
+                "child_2": {
+                    "distance": 0.04443,
+                    "child_1": {
+                        "distance": 0.04841,
+                        "child_1": {
+                            "distance": 0.51984,
+                            "leaf": true,
+                            "name": "Fibrobacter_succinogenes"
+                        },
+                        "child_2": {
+                            "distance": 0.09237,
+                            "child_1": {
+                                "distance": 0.37204,
+                                "leaf": true,
+                                "name": "Chlorobium_tepidum"
+                            },
+                            "child_2": {
+                                "distance": 0.34694,
+                                "child_1": {
+                                    "distance": 0.11304,
+                                    "leaf": true,
+                                    "name": "Porphyromonas_gingivalis"
+                                },
+                                "child_2": {
+                                    "distance": 0.13145,
+                                    "leaf": true,
+                                    "name": "Bacteroides_thetaiotaomicron"
+                                }
+                            }
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.60169,
+                        "child_1": {
+                            "distance": 0.0417,
+                            "child_1": {
+                                "distance": 0.10482,
+                                "child_1": {
+                                    "distance": 0.0,
+                                    "leaf": true,
+                                    "name": "Chlamydophila_pneumoniae_TW183"
+                                },
+                                "child_2": {
+                                    "distance": 0.0,
+                                    "child_1": {
+                                        "distance": 0.0,
+                                        "leaf": true,
+                                        "name": "Chlamydia_pneumoniae_J138"
+                                    },
+                                    "child_2": {
+                                        "distance": 0.0,
+                                        "child_1": {
+                                            "distance": 0.0,
+                                            "leaf": true,
+                                            "name": "Chlamydia_pneumoniae_CWL029"
+                                        },
+                                        "child_2": {
+                                            "distance": 0.0,
+                                            "leaf": true,
+                                            "name": "Chlamydia_pneumoniae_AR39"
+                                        }
+                                    }
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.05903,
+                                "leaf": true,
+                                "name": "Chlamydophila_caviae"
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.06809,
+                            "child_1": {
+                                "distance": 0.01938,
+                                "leaf": true,
+                                "name": "Chlamydia_muridarum"
+                            },
+                            "child_2": {
+                                "distance": 0.02643,
+                                "leaf": true,
+                                "name": "Chlamydia_trachomatis"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "child_2": {
+            "distance": 0.04315,
+            "child_1": {
+                "distance": 0.11788,
+                "child_1": {
+                    "distance": 0.17512,
+                    "leaf": true,
+                    "name": "Thermoanaerobacter_tengcongensis"
+                },
+                "child_2": {
+                    "distance": 0.15056,
+                    "child_1": {
+                        "distance": 0.03238,
+                        "child_1": {
+                            "distance": 0.10918,
+                            "leaf": true,
+                            "name": "Clostridium_tetani"
+                        },
+                        "child_2": {
+                            "distance": 0.11535,
+                            "leaf": true,
+                            "name": "Clostridium_perfringens"
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.11396,
+                        "leaf": true,
+                        "name": "Clostridium_acetobutylicum"
+                    }
+                }
+            },
+            "child_2": {
+                "distance": 0.0954,
+                "child_1": {
+                    "distance": 0.09099,
+                    "child_1": {
+                        "distance": 0.12541,
+                        "child_1": {
+                            "distance": 0.07341,
+                            "child_1": {
+                                "distance": 0.28466,
+                                "child_1": {
+                                    "distance": 0.27702,
+                                    "leaf": true,
+                                    "name": "Mycoplasma_mobile"
+                                },
+                                "child_2": {
+                                    "distance": 0.28761,
+                                    "leaf": true,
+                                    "name": "Mycoplasma_pulmonis"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.19177,
+                                "child_1": {
+                                    "distance": 0.06674,
+                                    "child_1": {
+                                        "distance": 0.1418,
+                                        "child_1": {
+                                            "distance": 0.31768,
+                                            "child_1": {
+                                                "distance": 0.10966,
+                                                "leaf": true,
+                                                "name": "Mycoplasma_pneumoniae"
+                                            },
+                                            "child_2": {
+                                                "distance": 0.11268,
+                                                "leaf": true,
+                                                "name": "Mycoplasma_genitalium"
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.24373,
+                                            "leaf": true,
+                                            "name": "Mycoplasma_gallisepticum"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.3489,
+                                        "leaf": true,
+                                        "name": "Mycoplasma_penetrans"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.33874,
+                                    "leaf": true,
+                                    "name": "Ureaplasma_parvum"
+                                }
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.3768,
+                            "leaf": true,
+                            "name": "Mycoplasma_mycoides"
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.47843,
+                        "leaf": true,
+                        "name": "Phytoplasma_Onion_yellows"
+                    }
+                },
+                "child_2": {
+                    "distance": 0.08905,
+                    "child_1": {
+                        "distance": 0.02828,
+                        "child_1": {
+                            "distance": 0.02816,
+                            "child_1": {
+                                "distance": 0.13517,
+                                "child_1": {
+                                    "distance": 0.00235,
+                                    "child_1": {
+                                        "distance": 0.00063,
+                                        "leaf": true,
+                                        "name": "Listeria_monocytogenes_F2365"
+                                    },
+                                    "child_2": {
+                                        "distance": 0.00144,
+                                        "leaf": true,
+                                        "name": "Listeria_monocytogenes_EGD"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.00248,
+                                    "leaf": true,
+                                    "name": "Listeria_innocua"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.03907,
+                                "child_1": {
+                                    "distance": 0.02676,
+                                    "child_1": {
+                                        "distance": 0.13838,
+                                        "leaf": true,
+                                        "name": "Oceanobacillus_iheyensis"
+                                    },
+                                    "child_2": {
+                                        "distance": 0.0928,
+                                        "leaf": true,
+                                        "name": "Bacillus_halodurans"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.01984,
+                                    "child_1": {
+                                        "distance": 0.08924,
+                                        "child_1": {
+                                            "distance": 0.00573,
+                                            "child_1": {
+                                                "distance": 0.00342,
+                                                "leaf": true,
+                                                "name": "Bacillus_cereus_ATCC_14579"
+                                            },
+                                            "child_2": {
+                                                "distance": 0.00123,
+                                                "leaf": true,
+                                                "name": "Bacillus_cereus_ATCC_10987"
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.00331,
+                                            "leaf": true,
+                                            "name": "Bacillus_anthracis"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.07876,
+                                        "leaf": true,
+                                        "name": "Bacillus_subtilis"
+                                    }
+                                }
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.17366,
+                            "child_1": {
+                                "distance": 0.02479,
+                                "child_1": {
+                                    "distance": 0.0,
+                                    "leaf": true,
+                                    "name": "Staphylococcus_aureus_MW2"
+                                },
+                                "child_2": {
+                                    "distance": 0.00022,
+                                    "child_1": {
+                                        "distance": 0.00022,
+                                        "leaf": true,
+                                        "name": "Staphylococcus_aureus_N315"
+                                    },
+                                    "child_2": {
+                                        "distance": 0.00022,
+                                        "leaf": true,
+                                        "name": "Staphylococcus_aureus_Mu50"
+                                    }
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.03246,
+                                "leaf": true,
+                                "name": "Staphylococcus_epidermidis"
+                            }
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.08989,
+                        "child_1": {
+                            "distance": 0.03958,
+                            "child_1": {
+                                "distance": 0.08901,
+                                "child_1": {
+                                    "distance": 0.04983,
+                                    "child_1": {
+                                        "distance": 0.0192,
+                                        "child_1": {
+                                            "distance": 0.0136,
+                                            "child_1": {
+                                                "distance": 0.01637,
+                                                "child_1": {
+                                                    "distance": 0.0011,
+                                                    "leaf": true,
+                                                    "name": "Streptococcus_agalactiae_III"
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.00155,
+                                                    "leaf": true,
+                                                    "name": "Streptococcus_agalactiae_V"
+                                                }
+                                            },
+                                            "child_2": {
+                                                "distance": 0.0225,
+                                                "child_1": {
+                                                    "distance": 0.00134,
+                                                    "leaf": true,
+                                                    "name": "Streptococcus_pyogenes_M1"
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.00066,
+                                                    "child_1": {
+                                                        "distance": 0.00045,
+                                                        "leaf": true,
+                                                        "name": "Streptococcus_pyogenes_MGAS8232"
+                                                    },
+                                                    "child_2": {
+                                                        "distance": 0.0011,
+                                                        "child_1": {
+                                                            "distance": 0.0,
+                                                            "leaf": true,
+                                                            "name": "Streptococcus_pyogenes_MGAS315"
+                                                        },
+                                                        "child_2": {
+                                                            "distance": 0.00022,
+                                                            "leaf": true,
+                                                            "name": "Streptococcus_pyogenes_SSI-1"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.04319,
+                                            "leaf": true,
+                                            "name": "Streptococcus_mutans"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.03607,
+                                        "child_1": {
+                                            "distance": 0.00119,
+                                            "leaf": true,
+                                            "name": "Streptococcus_pneumoniae_R6"
+                                        },
+                                        "child_2": {
+                                            "distance": 0.00124,
+                                            "leaf": true,
+                                            "name": "Streptococcus_pneumoniae_TIGR4"
+                                        }
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.11214,
+                                    "leaf": true,
+                                    "name": "Lactococcus_lactis"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.07946,
+                                "leaf": true,
+                                "name": "Enterococcus_faecalis"
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.06763,
+                            "child_1": {
+                                "distance": 0.20999,
+                                "leaf": true,
+                                "name": "Lactobacillus_johnsonii"
+                            },
+                            "child_2": {
+                                "distance": 0.14371,
+                                "leaf": true,
+                                "name": "Lactobacillus_plantarum"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "child_2": {
+        "distance": 0.88776,
+        "child_1": {
+            "distance": 0.57543,
+            "child_1": {
+                "distance": 0.10129,
+                "child_1": {
+                    "distance": 0.06455,
+                    "child_1": {
+                        "distance": 0.03495,
+                        "child_1": {
+                            "distance": 0.33483,
+                            "leaf": true,
+                            "name": "Thalassiosira_pseudonana"
+                        },
+                        "child_2": {
+                            "distance": 0.14359,
+                            "child_1": {
+                                "distance": 0.25048,
+                                "leaf": true,
+                                "name": "Cryptosporidium_hominis"
+                            },
+                            "child_2": {
+                                "distance": 0.28267,
+                                "leaf": true,
+                                "name": "Plasmodium_falciparum"
+                            }
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.02636,
+                        "child_1": {
+                            "distance": 0.08133,
+                            "child_1": {
+                                "distance": 0.1577,
+                                "child_1": {
+                                    "distance": 0.07623,
+                                    "leaf": true,
+                                    "name": "Oryza_sativa"
+                                },
+                                "child_2": {
+                                    "distance": 0.09366,
+                                    "leaf": true,
+                                    "name": "Arabidopsis_thaliana"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.38319,
+                                "leaf": true,
+                                "name": "Cyanidioschyzon_merolae"
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.02708,
+                            "child_1": {
+                                "distance": 0.34685,
+                                "leaf": true,
+                                "name": "Dictyostelium_discoideum"
+                            },
+                            "child_2": {
+                                "distance": 0.04004,
+                                "child_1": {
+                                    "distance": 0.1537,
+                                    "child_1": {
+                                        "distance": 0.2117,
+                                        "child_1": {
+                                            "distance": 0.07298,
+                                            "leaf": true,
+                                            "name": "Eremothecium_gossypii"
+                                        },
+                                        "child_2": {
+                                            "distance": 0.07619,
+                                            "leaf": true,
+                                            "name": "Saccharomyces_cerevisiae"
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.24665,
+                                        "leaf": true,
+                                        "name": "Schizosaccharomyces_pombe"
+                                    }
+                                },
+                                "child_2": {
+                                    "distance": 0.09911,
+                                    "child_1": {
+                                        "distance": 0.03693,
+                                        "child_1": {
+                                            "distance": 0.0987,
+                                            "child_1": {
+                                                "distance": 0.10724,
+                                                "leaf": true,
+                                                "name": "Anopheles_gambiae"
+                                            },
+                                            "child_2": {
+                                                "distance": 0.10233,
+                                                "leaf": true,
+                                                "name": "Drosophila_melanogaster"
+                                            }
+                                        },
+                                        "child_2": {
+                                            "distance": 0.09688,
+                                            "child_1": {
+                                                "distance": 0.04335,
+                                                "child_1": {
+                                                    "distance": 0.03142,
+                                                    "leaf": true,
+                                                    "name": "Takifugu_rubripes"
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.0523,
+                                                    "leaf": true,
+                                                    "name": "Danio_rerio"
+                                                }
+                                            },
+                                            "child_2": {
+                                                "distance": 0.01859,
+                                                "child_1": {
+                                                    "distance": 0.01629,
+                                                    "child_1": {
+                                                        "distance": 0.00398,
+                                                        "child_1": {
+                                                            "distance": 0.03107,
+                                                            "leaf": true,
+                                                            "name": "Rattus_norvegicus"
+                                                        },
+                                                        "child_2": {
+                                                            "distance": 0.01651,
+                                                            "leaf": true,
+                                                            "name": "Mus_musculus"
+                                                        }
+                                                    },
+                                                    "child_2": {
+                                                        "distance": 0.01549,
+                                                        "child_1": {
+                                                            "distance": 0.00957,
+                                                            "leaf": true,
+                                                            "name": "Homo_sapiens"
+                                                        },
+                                                        "child_2": {
+                                                            "distance": 0.03864,
+                                                            "leaf": true,
+                                                            "name": "Pan_troglodytes"
+                                                        }
+                                                    }
+                                                },
+                                                "child_2": {
+                                                    "distance": 0.04596,
+                                                    "leaf": true,
+                                                    "name": "Gallus_gallus"
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "child_2": {
+                                        "distance": 0.24324,
+                                        "child_1": {
+                                            "distance": 0.01843,
+                                            "leaf": true,
+                                            "name": "Caenorhabditis_elegans"
+                                        },
+                                        "child_2": {
+                                            "distance": 0.01896,
+                                            "leaf": true,
+                                            "name": "Caenorhabditis_briggsae"
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "child_2": {
+                    "distance": 0.45664,
+                    "leaf": true,
+                    "name": "Leishmania_major"
+                }
+            },
+            "child_2": {
+                "distance": 0.55482,
+                "leaf": true,
+                "name": "Giardia_lamblia"
+            }
+        },
+        "child_2": {
+            "distance": 0.43325,
+            "child_1": {
+                "distance": 0.15444,
+                "child_1": {
+                    "distance": 0.81078,
+                    "leaf": true,
+                    "name": "Nanoarchaeum_equitans"
+                },
+                "child_2": {
+                    "distance": 0.12018,
+                    "child_1": {
+                        "distance": 0.09462,
+                        "child_1": {
+                            "distance": 0.3372,
+                            "child_1": {
+                                "distance": 0.17389,
+                                "leaf": true,
+                                "name": "Sulfolobus_tokodaii"
+                            },
+                            "child_2": {
+                                "distance": 0.18962,
+                                "leaf": true,
+                                "name": "Sulfolobus_solfataricus"
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.4338,
+                            "leaf": true,
+                            "name": "Aeropyrum_pernix"
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.55514,
+                        "leaf": true,
+                        "name": "Pyrobaculum_aerophilum"
+                    }
+                }
+            },
+            "child_2": {
+                "distance": 0.11833,
+                "child_1": {
+                    "distance": 0.66151,
+                    "child_1": {
+                        "distance": 0.10412,
+                        "leaf": true,
+                        "name": "Thermoplasma_volcanium"
+                    },
+                    "child_2": {
+                        "distance": 0.09785,
+                        "leaf": true,
+                        "name": "Thermoplasma_acidophilum"
+                    }
+                },
+                "child_2": {
+                    "distance": 0.06815,
+                    "child_1": {
+                        "distance": 0.04469,
+                        "child_1": {
+                            "distance": 0.06284,
+                            "child_1": {
+                                "distance": 0.07446,
+                                "child_1": {
+                                    "distance": 0.36583,
+                                    "leaf": true,
+                                    "name": "Methanobacterium_thermautotrophicum"
+                                },
+                                "child_2": {
+                                    "distance": 0.35331,
+                                    "leaf": true,
+                                    "name": "Methanopyrus_kandleri"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.23828,
+                                "child_1": {
+                                    "distance": 0.28592,
+                                    "leaf": true,
+                                    "name": "Methanococcus_maripaludis"
+                                },
+                                "child_2": {
+                                    "distance": 0.13226,
+                                    "leaf": true,
+                                    "name": "Methanococcus_jannaschii"
+                                }
+                            }
+                        },
+                        "child_2": {
+                            "distance": 0.3622,
+                            "child_1": {
+                                "distance": 0.02239,
+                                "child_1": {
+                                    "distance": 0.02786,
+                                    "leaf": true,
+                                    "name": "Pyrococcus_horikoshii"
+                                },
+                                "child_2": {
+                                    "distance": 0.02179,
+                                    "leaf": true,
+                                    "name": "Pyrococcus_abyssi"
+                                }
+                            },
+                            "child_2": {
+                                "distance": 0.02366,
+                                "leaf": true,
+                                "name": "Pyrococcus_furiosus"
+                            }
+                        }
+                    },
+                    "child_2": {
+                        "distance": 0.10395,
+                        "child_1": {
+                            "distance": 0.3466,
+                            "leaf": true,
+                            "name": "Archaeoglobus_fulgidus"
+                        },
+                        "child_2": {
+                            "distance": 0.12801,
+                            "child_1": {
+                                "distance": 0.61597,
+                                "leaf": true,
+                                "name": "Halobacterium_sp._NRC-1"
+                            },
+                            "child_2": {
+                                "distance": 0.30588,
+                                "child_1": {
+                                    "distance": 0.02602,
+                                    "leaf": true,
+                                    "name": "Methanosarcina_acetivorans"
+                                },
+                                "child_2": {
+                                    "distance": 0.03087,
+                                    "leaf": true,
+                                    "name": "Methanosarcina_mazei"
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
