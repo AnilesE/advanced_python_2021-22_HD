@@ -61,13 +61,15 @@ def plot_hist(path, png_filename, hist_title = ""):
 
 
 def main():
-    path_fasta = str(input("path of .fasta file (input):"))
-    path_csv = str(input("path of .csv file (output):"))
-    path_png = str(input("path of .png file (output):"))
+    # path_fasta = str(input("path of .fasta file (input):"))
+    # path_csv = str(input("path of .csv file (output):"))
+    # path_png = str(input("path of .png file (output):"))
 
-    # path_fasta = "uniprot-filtered-reviewed_yes+AND+organism__Homo+sapiens+(Human)+[96--.fasta"
-    # path_csv = "human_aminoacids_counts.csv"
-    # path_png = "human_hist.png"
+    path_fasta = "uniprot-filtered-reviewed_yes+AND+organism__Homo+sapiens+(Human)+[96--.fasta"
+    path_csv = "human_aminoacids_counts.csv"
+    path_png = "human_hist.png"
 
     fasta_file(path_fasta, path_csv)
     plot_hist(path_csv, path_png, "Total counts of amino acids")
+
+main()
