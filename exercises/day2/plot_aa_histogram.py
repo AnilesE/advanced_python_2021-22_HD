@@ -1,9 +1,12 @@
+# author: Selina Ernst
+# date: 10.11.2021
+
 from collections import Counter
 import csv
 import matplotlib.pyplot as plt
 
 def fasta_file(path, output_file_name):
-    """count amino acids within the FASTA document (genome) 
+    """count amino acids within the FASTA document (proteome) 
 
     Function opens .fasta file and counts all amino acids from all proteins. 
     The counts are saved as a .csv file.
@@ -55,10 +58,17 @@ def plot_hist(path, png_filename, hist_title = ""):
         plt.savefig(png_filename, dpi = 400)                # save histogram
 
 
-path_fasta = "uniprot-filtered-reviewed_yes+AND+organism__Homo+sapiens+(Human)+[96--.fasta"
-path_csv = "human_aminoacids_counts.csv"
-path_png = "human_hist.png"
 
+def main():
+    path_fasta = str(input("path of .fasta file (input):"))
+    path_csv = str(input("path of .csv file (output):"))
+    path_png = str(input("path of .png file (output):"))
 
-fasta_file(path_fasta, path_csv)
-plot_hist(path_csv, path_png, "Total counts of amino acids in the human genome")
+    # path_fasta = "uniprot-filtered-reviewed_yes+AND+organism__Homo+sapiens+(Human)+[96--.fasta"
+    # path_csv = "human_aminoacids_counts.csv"
+    # path_png = "human_hist.png"
+
+    fasta_file(path_fasta, path_csv)
+    plot_hist(path_csv, path_png, "Total counts of amino acids")
+
+main()
