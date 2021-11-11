@@ -121,6 +121,8 @@ def swap_children(binary_tree):
     binary_tree["child_right"] = move_child_1
     binary_tree["child_left"] = move_child_2
 
+    return binary_tree
+
 def swap_right_child_with_parent(binary_tree):
 
     move_parent = {key: binary_tree[key] for key in ["city", "lat", "lng", "distance"]}
@@ -129,6 +131,8 @@ def swap_right_child_with_parent(binary_tree):
     binary_tree.update(move_child)
     binary_tree["child_right"].update(move_parent)
 
+    return binary_tree
+
 def swap_left_child_with_parent(binary_tree):
 
     move_parent = {key: binary_tree[key] for key in ["city", "lat", "lng", "distance"]}
@@ -136,6 +140,8 @@ def swap_left_child_with_parent(binary_tree):
 
     binary_tree.update(move_child)
     binary_tree["child_left"].update(move_parent)
+
+    return binary_tree
 
 def order_root_after_distance_to_point(dict_tree, tuple_point): 
     """order parent and children after their distance to certain point
@@ -154,64 +160,44 @@ def order_root_after_distance_to_point(dict_tree, tuple_point):
     dict_tree["child_right"].update({"distance" : d_child_right}) 
     dict_tree["child_left"].update({"distance" : d_child_left}) 
 
-    if d_parent < d_child_left and d_parent < d_child_right and d_child_right < d_child_left:
+    if d_parent < d_child_left and d_parent < d_child_right:
         #  small
         #   /  \
-        # big  middle
+        # big  big
         pass
-    elif d_parent < d_child_left and d_parent < d_child_right and d_child_right > d_child_left:
-        #  small
-        #   /  \
-        # middle  big
-        swap_children(dict_tree)
-        #  small
-        #   /  \
-        # big  middle
     elif d_parent < d_child_left and d_parent > d_child_right and d_child_right > d_child_left:
         #  middle
         #   /  \
         # big  small
-        swap_right_child_with_parent(dict_tree)
+        dict_tree = swap_right_child_with_parent(dict_tree)
         #  small
         #   /  \
         # big  middle
-    elif d_parent > d_child_left and d_parent < d_child_right and d_child_right > d_child_left:
+    if d_parent > d_child_left and d_parent < d_child_right and d_child_right > d_child_left:
         #  middle
         #   /  \
         # small  big
-        swap_children(dict_tree)                
-        #  middle
-        #   /  \
-        # big  small
-        swap_right_child_with_parent(dict_tree)
-        #  small
-        #   /  \
-        # big  middle
-    elif d_parent > d_child_left and d_parent > d_child_right and d_child_right < d_child_left:
+        dict_tree = swap_left_child_with_parent(dict_tree)                
+        #    small
+        #     /  \
+        # middle  big
+    if d_parent > d_child_left and d_parent > d_child_right and d_child_right < d_child_left:
         #      big
         #      /  \
         # middle  small
-        swap_left_child_with_parent(dict_tree)
+        dict_tree  = swap_left_child_with_parent(dict_tree)
         #  middle
         #   /  \
         # big  small
-        swap_right_child_with_parent(dict_tree)
+        dict_tree = swap_right_child_with_parent(dict_tree)
         #  small
         #   /  \
         # big  middle
-    elif d_parent > d_child_left and d_parent > d_child_right and d_child_right > d_child_left:
+    if d_parent > d_child_left and d_parent > d_child_right and d_child_right > d_child_left:
         #   big
         #   /  \
         # small  middle
-        swap_children(dict_tree)   
-        #    big
-        #    /  \
-        # middle  small
-        swap_left_child_with_parent(dict_tree)
-        #   middle
-        #   /  \
-        # big  small
-        swap_right_child_with_parent(dict_tree)
+        dict_tree = swap_left_child_with_parent(dict_tree)  
         #  small
         #   /  \
         # big  middle
