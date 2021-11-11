@@ -11,18 +11,20 @@ import random
 import json
 
 # ----------------------------------------------------------------
-# ALL FUNCTIONS in this program (not in order):
-#   - get_values_of_key(key, list_dict)
-#   - distance(lat1,long1,lat2,long2)
-#   - dive_k(tree, k)
-#   - swap_children(binary_tree)
-#   - swap_right_child_with_parent(binary_tree)
-#   - swap_left_child_with_parent(binary_tree)
+# DEPENDENCIES OF FUNCTIONS in this program (not in order):
 
-# ! - create_tree_from_list(dict_list, i)
-# ! - create_tree(map_data_file)
+# ! - create_heapified_tree(map_data_file, point)
+# !     - create_tree_from_list(dict_list, i)
+#               - get_values_of_key(key, list_dict)
+# !     - heapify_tree()
+#               - order_root_after_distance_to_point(dict_tree, tuple_point)
 # ! - order_root_after_distance_to_point(dict_tree, tuple_point)
-# ! - find_closest_cities(point, tree)
+#       - distance(lat1,long1,lat2,long2)
+#       - swap_children(binary_tree)
+#       - swap_right_child_with_parent(binary_tree)
+#       - swap_left_child_with_parent(binary_tree)
+# ! - find_closest_cities(heapified_tree)
+#       - dive_k(tree, k)
 
 #   - main()
 # ----------------------------------------------------------------
@@ -112,15 +114,6 @@ def distance(lat1,long1,lat2,long2):
     d = geopy.distance.geodesic(coords_1, coords_2).km      
     return d
 
-
-
-# --------------------------------
-# Defining functions IMPORTANT to order tree 
-#   - swap_children(binary_tree
-#   - swap_right_child_with_parent(binary_tree)
-#   - swap_left_child_with_parent(binary_tree)
-#   - order_root_after_distance_to_point(dict_tree, tuple_point)
-# --------------------------------
 def swap_children(binary_tree):
 
     move_child_1 = binary_tree["child_left"]
@@ -224,14 +217,6 @@ def order_root_after_distance_to_point(dict_tree, tuple_point):
         # big  middle
     return dict_tree
 
-# --------------------------------
-# Defining function to create tree
-#   - heapify_tree(point, tree)
-#   - create_heapified_tree(map_data_file)
-# --------------------------------
-# Defining function to find cities in tree closest to certain point
-#   - find_closest_cities(point, tree)
-# --------------------------------
 
 def heapify_tree(point, tree):
 
@@ -291,19 +276,14 @@ def create_heapified_tree(map_data_file, point):
 
     return dict_tree
 
-def find_closest_cities(heapified_tree):
+def find_closest_cities(heapified_tree, levels_of_tree = 3):
     """Find ten close cities to the given point on the world given the data structure
     Args:    
         heapified_tree (dict): each node is one city (at root are cities with smalles distance)
     Returns:
          (string): of cities at level 1 - 3
     """
-    return dive_k(heapified_tree, 3)
-
-# --------------------------------
-# START Program
-#   - main()
-# --------------------------------
+    return dive_k(heapified_tree, levels_of_tree)
 
 def main():
 
@@ -313,6 +293,6 @@ def main():
     # (50.998401, 10.993570)
 
     tree = create_heapified_tree("cities.csv", point)
-    print(find_closest_cities(tree))
+    print(find_closest_cities(tree, 4))
 
 main()
