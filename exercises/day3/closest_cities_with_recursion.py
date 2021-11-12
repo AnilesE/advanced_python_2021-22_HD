@@ -13,29 +13,22 @@ import json
 # ----------------------------------------------------------------
 # DEPENDENCIES OF FUNCTIONS in this program (not in order):
 
-# ! - create_heapified_tree(map_data_file, point)
-# !     - create_tree_from_list(dict_list, i)
-#               - get_values_of_key(key, list_dict)
-# !     - heapify_tree()
-#               - order_root_after_distance_to_point(dict_tree, tuple_point)
 # ! - order_root_after_distance_to_point(dict_tree, tuple_point)
 #       - distance(lat1,long1,lat2,long2)
 #       - swap_children(binary_tree)
 #       - swap_right_child_with_parent(binary_tree)
 #       - swap_left_child_with_parent(binary_tree)
+# ! - create_heapified_tree(map_data_file, point)
+#       - get_values_of_key(key, list_dict)
+# !     - create_tree_from_list(dict_list, i)
+# !     - heapify_tree()
+#               - order_root_after_distance_to_point(dict_tree, tuple_point)
+
 # ! - find_closest_cities(heapified_tree)
 #       - dive_k(tree, k)
 
 #   - main()
 # ----------------------------------------------------------------
-
-# --------------------------------
-# Defining minor function
-#   - get_values_of_key(key, list_dict)
-#   - create_tree_from_list(dict_list, i)
-#   - dive_k(tree, k)
-#   - distance(lat1,long1,lat2,long2)
-# --------------------------------
 
 def get_values_of_key(key, list_dict):
     """lists values of different dict with same key
@@ -173,7 +166,7 @@ def order_root_after_distance_to_point(dict_tree, tuple_point):
         #  small
         #   /  \
         # big  middle
-    if d_parent > d_child_left and d_parent < d_child_right and d_child_right > d_child_left:
+    elif d_parent > d_child_left and d_parent < d_child_right and d_child_right > d_child_left:
         #  middle
         #   /  \
         # small  big
@@ -181,7 +174,7 @@ def order_root_after_distance_to_point(dict_tree, tuple_point):
         #    small
         #     /  \
         # middle  big
-    if d_parent > d_child_left and d_parent > d_child_right and d_child_right < d_child_left:
+    elif d_parent > d_child_left and d_parent > d_child_right and d_child_right < d_child_left:
         #      big
         #      /  \
         # middle  small
@@ -193,7 +186,7 @@ def order_root_after_distance_to_point(dict_tree, tuple_point):
         #  small
         #   /  \
         # big  middle
-    if d_parent > d_child_left and d_parent > d_child_right and d_child_right > d_child_left:
+    elif d_parent > d_child_left and d_parent > d_child_right and d_child_right > d_child_left:
         #   big
         #   /  \
         # small  middle
@@ -211,11 +204,11 @@ def heapify_tree(point, tree):
         point (tuple of floats): latitude and longitude
         tree (dict): each node is one city 
     Returns:
-        tree (dict): each node is one city
+        tree (dict): each node is one city (ordered)
     """
 
     if tree["child_left"] == None or tree["child_left"] == None:
-        return tree
+        return tree 
     
     else:
         tree.update({
@@ -223,7 +216,7 @@ def heapify_tree(point, tree):
         "child_left" : heapify_tree(point, tree["child_left"])
         })
 
-        order_root_after_distance_to_point(tree, point)
+        tree = order_root_after_distance_to_point(tree, point)
 
         return tree
 
@@ -273,12 +266,12 @@ def find_closest_cities(heapified_tree, levels_of_tree = 3):
 
 def main():
 
-    point_latitude = float(input("latitude:"))
-    point_longitude = float(input("longitude:"))
-    point = tuple([point_latitude, point_longitude])
-    # (50.998401, 10.993570)
+    # point_latitude = float(input("latitude:"))
+    # point_longitude = float(input("longitude:"))
+    # point = tuple([point_latitude, point_longitude])
+    point = tuple(50.998401, 10.993570)
 
     tree = create_heapified_tree("cities.csv", point)
-    print(find_closest_cities(tree, 4))
+    print(find_closest_cities(tree, 1))
 
 main()
