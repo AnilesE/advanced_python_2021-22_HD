@@ -57,7 +57,7 @@ def create_list_dict(map_data_file):
         for line_dict in f_reader:
             list_dict.append(line_dict)
         
-        return list_dict
+    return list_dict
 
 def close(point, list_dict, k = 10):
     """create list of k city names that are closest to point 
@@ -82,10 +82,10 @@ def close(point, list_dict, k = 10):
     
 def main():
     
-    point_latitude = float(input("latitude:"))
-    point_longitude = float(input("longitude:"))
-    point = tuple([point_latitude, point_longitude])
-
+    # point_latitude = float(input("latitude:"))
+    # point_longitude = float(input("longitude:"))
+    # point = tuple([point_latitude, point_longitude])
+    point = (50.998401, 10.993570)
     cities_list = create_list_dict("cities.csv")
 
     city_value = get_values_of_key("city", cities_list)
@@ -109,6 +109,6 @@ def main():
     
     print(cities_close)
 
-    # example point: (50.998401, 10.993570)
+    
 
 main()

@@ -269,7 +269,7 @@ def main():
     # point_latitude = float(input("latitude:"))
     # point_longitude = float(input("longitude:"))
     # point = tuple([point_latitude, point_longitude])
-    point = tuple(50.998401, 10.993570)
+    point = (50.998401, 10.993570)
 
     tree = create_heapified_tree("cities.csv", point)
     print(find_closest_cities(tree, 1))
