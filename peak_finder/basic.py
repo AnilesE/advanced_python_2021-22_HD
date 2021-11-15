@@ -28,14 +28,32 @@ def find_peaks(list_of_intensities):
 
     """
     peaks = []
-    for i in range(len(list_of_intensities)):
-        if i==0:
-            if list_of_intensities[i] > list_of_intensities[i+1]: peaks.append(list_of_intensities[i])
-        elif i != 0 and i != len(list_of_intensities):
-            if list_of_intensities[i-1] < list_of_intensities[i] > list_of_intensities[i+1]:
-                peaks.append(list_of_intensities[i])
-        elif i==len(list_of_intensities):
-            if list_of_intensities[i] > list_of_intensities[i+1]: peaks.append(list_of_intensities[i])
+    if all([isinstance(x, tuple) for x in list_of_intensities]):
+        for i in range(len(list_of_intensities)):
+            list_of_intensities[i] = sum(list_of_intensities[i])
+            if i==0:
+                if list_of_intensities[i] > list_of_intensities[i+1]: 
+                    peaks.append(list_of_intensities[i])
+            elif i != 0 and i != len(list_of_intensities):
+                if list_of_intensities[i-1] < list_of_intensities[i] > list_of_intensities[i+1]:
+                    peaks.append(list_of_intensities[i])
+            elif i==len(list_of_intensities):
+                if list_of_intensities[i] > list_of_intensities[i+1]: 
+                    peaks.append(list_of_intensities[i])  
+
+    else:
+        for i in range(len(list_of_intensities)):
+            if isinstance(list_of_intensities[i], int) is False:
+                continue
+            if i==0:
+                if list_of_intensities[i] > list_of_intensities[i+1]: 
+                    peaks.append(list_of_intensities[i])
+            elif i != 0 and i != len(list_of_intensities):
+                if list_of_intensities[i-1] < list_of_intensities[i] > list_of_intensities[i+1]:
+                    peaks.append(list_of_intensities[i])
+            elif i==len(list_of_intensities):
+                if list_of_intensities[i] > list_of_intensities[i+1]: 
+                    peaks.append(list_of_intensities[i])
 
 
     return peaks

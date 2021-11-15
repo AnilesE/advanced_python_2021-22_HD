@@ -24,3 +24,12 @@ def test_find_peaks_example():
 def test_rand_is_gr():
     peaks = peak_finder.basic.find_peaks([6,1,0])
     assert peaks == [6]
+
+def test_None():
+    peaks = peak_finder.basic.find_peaks([6,1,0, None])
+    assert peaks == [6]
+
+def test_tuple():
+    peaks = peak_finder.basic.find_peaks([(20,0,0), (0,19,0), (0,0,0), (255, 255, 255)])
+    assert peaks == [(0,0,0)]
+
