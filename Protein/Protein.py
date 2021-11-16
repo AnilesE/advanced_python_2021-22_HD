@@ -3,6 +3,11 @@
 # Write doc strings 
 #
 
+from collections import deque
+import pandas as pd
+import plotly.graph_objs as go
+import numpy as np
+
 class Protein:
 
 
@@ -53,8 +58,8 @@ class Protein:
 
     def create_df(self):
         list = []
-        if self.fasta_file == None and self.metrics == None:
-            print("missing metrics or .fasta file")
+        if self.fasta_file == None or self.metrics == None:
+            return "missing metrics or .fasta file"
         else:
             self._AAsequence = self.open_fasta_file(self.fasta_file)[1]
             for x in self._AAsequence:
@@ -100,7 +105,6 @@ class Protein:
         ]
 
         fig = go.Figure(data = data, layout = layout)
-        return fig.show()
-
+        return fig
 
         

@@ -36,8 +36,22 @@ def test_None_aattributes():
     assert [P.ID, P.name, P.metrics, P.AAsequence, P.fasta_file, P.identifier, P.df] == [None, None, None, None, None, None, None]
 
 def test_create_df():
-    aa_df = pd.read_csv("../data/amino_acid_properties.csv")
+    aa_df = pd.read_csv("C:/Users/Selina Ernst/Documents/GitHub/advanced_python_2021-22_HD/data/amino_acid_properties.csv")
     aa_df = aa_df.set_index("1-letter code", drop = False)
     metrics = aa_df.to_dict()
-    P = Protein.Protein.Protein(fasta_file = "P32249.fasta", metrics = metrics)
-    assert len(P.create_df) == len(P.AAsequence)
+    file = "C:/Users/Selina Ernst/Documents/GitHub/advanced_python_2021-22_HD/exercises/day5/P32249.fasta"
+    P = Protein.Protein.Protein(file = file, metrics = metrics)
+    assert len(P.create_df()) == len(P.AAsequence)
+
+def test_not_create_df():
+    file = "C:/Users/Selina Ernst/Documents/GitHub/advanced_python_2021-22_HD/exercises/day5/P32249.fasta"
+    P = Protein.Protein.Protein(file = file)
+    assert P.create_df() == "missing metrics or .fasta file"
+
+def test_plot():
+    aa_df = pd.read_csv("C:/Users/Selina Ernst/Documents/GitHub/advanced_python_2021-22_HD/data/amino_acid_properties.csv")
+    aa_df = aa_df.set_index("1-letter code", drop = False)
+    metrics = aa_df.to_dict()
+    file = "C:/Users/Selina Ernst/Documents/GitHub/advanced_python_2021-22_HD/exercises/day5/P32249.fasta"
+    P = Protein.Protein.Protein(file = file, metrics = metrics)
+    isinstance(P.plot(), go._figure.Figure)
