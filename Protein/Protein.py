@@ -6,12 +6,12 @@
 class Protein:
 
 
-    def __init__(self, ID = None, name = None, metrics = None, AAsequence = None):
+    def __init__(self, ID = None, name = None, metrics = None, AAsequence = None, file = None):
         self.ID = ID
         self.name = name
         self.metrics = metrics
         self._AAsequence = AAsequence
-        self.fasta_file = None
+        self.fasta_file = file
         self._identifier = None
         self._df = None
     
@@ -49,8 +49,9 @@ class Protein:
         else:
             self._identifier = self.open_fasta_file(self.fasta_file)[0]
             return self._identifier
-    @property
-    def df(self):
+    
+
+    def create_df(self):
         list = []
         if self.fasta_file == None and self.metrics == None:
             print("missing metrics or .fasta file")
@@ -67,7 +68,7 @@ class Protein:
 
         
     def averaging_metric(self, metric, window_size):
-        
+        self._df = self.create_df()
         window = deque([], maxlen=window_size)
         average = []
         for pos, aa in enumerate(self.AAsequence):
@@ -77,7 +78,7 @@ class Protein:
         return average
 
     def plot(self, metric = "hydropathy", window_size = 5):
-
+        self._df = self.create_df()
         if metric == "hydropathy":
             metric = "hydropathy index (Kyte-Doolittle method)"
 
@@ -100,5 +101,6 @@ class Protein:
 
         fig = go.Figure(data = data, layout = layout)
         return fig.show()
+
 
         
