@@ -4,4 +4,4 @@
 # the %%writefile magic allows the jupyter cell content to be stored as a file
 
 # lets load core into the name space as well
-from . import basic
+from . import Protein
